@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>王陈宇科的个人主页</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-avatar">
+                <!-- 这里可以替换成您自己的头像URL -->
+                <img src="https://avatars.githubusercontent.com/u/Wangchenyuke" alt="个人头像">
+            </div>
+            <h1>王陈宇科</h1>
+            <p class="title">Java开发</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/Wangchenyuke" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="http://124.221.155.78/" target="_blank" class="social-link">
+                    <i class="fas fa-project-diagram"></i> 面试通项目
+                </a>
+            </div>
+        </header>
+
+        <section class="about-me">
+            <h2><i class="fas fa-user"></i> 关于我</h2>
+            <p>我是一名充满热情的Java后端开发者，专注于构建高性能、可扩展的企业级应用。</p>
+        </section>
+
+        <section class="skills">
+            <h2><i class="fas fa-code"></i> 技术栈</h2>
+            <div class="skill-tags">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Spring Boot</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Redis</span>
+                <span class="skill-tag">MyBatis</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Spring Cloud</span>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2><i class="fas fa-project-diagram"></i> 项目展示</h2>
+            <div class="project-card">
+                <h3>面试通平台</h3>
+                <p>一个帮助开发者准备技术面试的在线平台</p>
+                <a href="http://124.221.155.78/" target="_blank" class="project-link">访问项目</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html> 
